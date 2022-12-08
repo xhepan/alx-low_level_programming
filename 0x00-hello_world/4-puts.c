@@ -1,6 +1,8 @@
 #include <stdio.h>
 /**
  * main - Prints some text
+ *
+ * Return: 0 if successful
  */
 int main(void)
 {
