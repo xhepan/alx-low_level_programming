@@ -10,7 +10,7 @@ int main(void)
 	char alph[50] = {"abcdefghijklmnopqrstuvwxyz"};
 	int i, len;
 
-	i=0;
+	i = 0;
 	len = strlen(alph);
 
 	while (i < len)
@@ -18,6 +18,6 @@ int main(void)
 		putchar(alph[i]);
 		i++;
 	}
-	
+	putchar("\n");
 	return (0);
 }
