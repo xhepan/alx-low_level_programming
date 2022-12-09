@@ -4,7 +4,7 @@
 #include <stdio.h>
 /* betty style doc for function main goes there */
 /**
- * main - Checks if number is positive, negative or zero
+ * main - Checks if number is >5, <6 or zero
  *
  * Return: 0 if successful
  */
@@ -15,17 +15,18 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	if (n > 0)
+	int ld = n % 10;
+	if (ld > 5)
 	{
-		printf("%d is positive\n", n);
+		printf("Last digit of %d is %d and is greater than 5\n", n, ld);
 	}
-	if (n == 0)
+	if (ld == 0)
 	{
-		printf("%d is zero\n", n);
+		printf("Last digit of %d is %d and is 0\n", n, ld);
 	}
-	if (n < 0)
+	if (ld < 6 && ld != 0)
 	{
-		printf("%d is negative\n", n);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n);
 	}
 	return (0);
 }
