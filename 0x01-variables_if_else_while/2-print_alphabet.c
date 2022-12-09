@@ -8,11 +8,12 @@
 int main(void)
 {
 	char alph[50] = {"abcdefghijklmnopqrstuvwxyz"};
-	int i;
+	int i, len;
 
 	i=0;
+	len = strlen(alph);
 
-	while (i < strlen(alph))
+	while (i < len)
 	{
 		putchar(alph[i]);
 		i++;
