@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <string.h>
-#include <main.h>
 /**
  * print_alphabet - uses _putchar to print the alphabet in lowercase
  */
