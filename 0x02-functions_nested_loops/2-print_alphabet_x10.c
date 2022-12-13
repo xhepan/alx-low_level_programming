@@ -2,7 +2,7 @@
 #include <string.h>
 #include "main.h"
 /**
- * print_alphabet - uses _putchar to print the alphabet in lowercase
+ * print_alphabet_x10 - uses _putchar to print the alphabet in lowercase
  */
 void print_alphabet_x10(void)
 {
@@ -15,6 +15,6 @@ void print_alphabet_x10(void)
 		{
 			_putchar(c);
 		}
-	       	_putchar('\n');
+		_putchar('\n');
 	}
 }
