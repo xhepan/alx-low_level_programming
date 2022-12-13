@@ -1,7 +1,7 @@
 /**
  * print_alphabet - uses _putchar() to print alphabet
  *
- * Return: 0 if successful
+ * No return ~ void
  */
 void print_alphabet(void)
 {
@@ -11,5 +11,4 @@ void print_alphabet(void)
 		putchar(c);
 	}
 	putchar('\n');
-	return (0);
 }
