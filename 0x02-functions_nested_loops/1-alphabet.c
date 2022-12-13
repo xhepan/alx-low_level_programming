@@ -2,12 +2,14 @@
 #include <string.h>
 #include <main.h>
 /**
- * main -uses print_alphabet function to print the alphabet in lowercase
- *
- * Return: Always 0
+ * print_alphabet - uses _putchar to print the alphabet in lowercase
  */
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+	char c;
+	for (c='a'; c<='z'; c++)
+	{
+		_putchar(c);
+	}
+	_putchar('\n');
 }
