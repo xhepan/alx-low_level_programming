@@ -32,3 +32,8 @@ void print_most_numbers(void);
  * more_numbers - print numbers 0-14, 10 times
  */
 void more_numbers(void);
+
+/**
+ * print_line - print straight line
+ */
+void print_line(int n);
