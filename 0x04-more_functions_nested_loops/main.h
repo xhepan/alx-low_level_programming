@@ -27,3 +27,8 @@ void _putchar(int c);
  * print_most_numbers - print digits 0-9 except 2,4
  */
 void print_most_numbers(void);
+
+/**
+ * more_numbers - print numbers 0-14, 10 times
+ */
+void more_numbers(void);
