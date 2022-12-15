@@ -42,3 +42,8 @@ void print_line(int n);
  * print_diagonal - print diagonal line
  */
 void print_diagonal(int n);
+
+/**
+ * print_square - print square
+ */
+void print_square(int size);
