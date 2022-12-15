@@ -20,5 +20,6 @@ void print_triangle(int size)
 			_putchar('#');
 		}
 		k++;
+		_putchar('\n');
 	}
 }
