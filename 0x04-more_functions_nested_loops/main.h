@@ -7,3 +7,8 @@ int _isupper(int c);
  * _isdigit - uses isdigit() to check if character is a digit
  */
 int _isdigit(int c);
+
+/**
+ * mul - multiplies two integers
+ */
+int mul(int a, int b);
