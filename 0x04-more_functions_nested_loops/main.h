@@ -37,3 +37,8 @@ void more_numbers(void);
  * print_line - print straight line
  */
 void print_line(int n);
+
+/**
+ * print_diagonal - print diagonal line
+ */
+void print_diagonal(int n);
