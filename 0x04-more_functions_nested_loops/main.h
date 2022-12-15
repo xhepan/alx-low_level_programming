@@ -17,3 +17,8 @@ int mul(int a, int b);
  * print_numbers - prints digits 0-9
  */
 void print_numbers(void);
+
+/**
+ * _putchar - uses putchar to print a character
+ */
+void _putchar(int c);
