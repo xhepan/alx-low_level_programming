@@ -1,1 +1,1 @@
-Repo with tasks for C programming language
+more fun with function and loops in c
