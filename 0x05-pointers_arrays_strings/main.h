@@ -37,3 +37,8 @@ void rev_string(char *s);
  * puts2 - print some of string
  */
 void puts2(char *str);
+
+/**
+ * puts_half - prints half of string
+ */
+void puts_half(char *str);
