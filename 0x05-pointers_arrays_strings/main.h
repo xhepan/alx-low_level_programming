@@ -32,3 +32,8 @@ void print_rev(char *s);
  * rev_string - reverse a string
  */
 void rev_string(char *s);
+
+/**
+ * puts2 - print some of string
+ */
+void puts2(char *str);
