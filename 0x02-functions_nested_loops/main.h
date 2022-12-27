@@ -17,4 +17,9 @@ void print_alphabet_x10(void);
  *
  * No return
  */
-void _putchar(char);
+void _putchar(char s);
+
+/**
+ * _islower - checks lowercase
+ */
+int _islower(int c);
