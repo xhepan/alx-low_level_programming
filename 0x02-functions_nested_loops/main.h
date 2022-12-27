@@ -28,3 +28,8 @@ int _islower(int c);
  * _isalpha - checks alphabet
  */
 int _isalpha(int c);
+
+/**
+ * print_sign - print sign of number
+ */
+int print_sign(int n);
