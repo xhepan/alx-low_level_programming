@@ -42,3 +42,8 @@ int _abs(int);
  * print_last_digit - print last digit
  */
 int print_last_digit(int);
+
+/**
+ * times_table - prints it
+ */
+void times_table(void);
