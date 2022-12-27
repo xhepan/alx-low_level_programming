@@ -23,3 +23,8 @@ void _putchar(char s);
  * _islower - checks lowercase
  */
 int _islower(int c);
+
+/**
+ * _isalpha - checks alphabet
+ */
+int _isalpha(int c);
