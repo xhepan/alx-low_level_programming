@@ -33,3 +33,8 @@ int _isalpha(int c);
  * print_sign - print sign of number
  */
 int print_sign(int n);
+
+/**
+ * _abs - absolute value
+ */
+int _abs(int);
