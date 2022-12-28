@@ -47,3 +47,8 @@ int print_last_digit(int);
  * times_table - prints it
  */
 void times_table(void);
+
+/**
+ * add - sums ints
+ */
+int add(int, int);
