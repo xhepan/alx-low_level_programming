@@ -52,3 +52,8 @@ void times_table(void);
  * add - sums ints
  */
 int add(int, int);
+
+/**
+ * print_to_98 - prints numbers to 98
+ */
+void print_to_98(int n);
