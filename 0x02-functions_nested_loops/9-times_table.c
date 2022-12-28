@@ -17,8 +17,15 @@ void times_table(void)
 			printf("%d", p);
 			if (j != 9)
 			{
-				printf(",");
-				printf(" ");
+				if (p < 10)
+				{
+					printf(",");
+					printf("  ");
+				}
+				else
+				{
+					printf(", ");
+				}
 			}
 		}
 		printf("\n");
