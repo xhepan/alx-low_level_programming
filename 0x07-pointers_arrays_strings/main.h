@@ -27,3 +27,8 @@ char *_strpbrk(char *s, char *accept);
  * _strstr - needle in stack
  */
 char *_strstr(char *haystack, char *needle);
+
+/**
+ * print_chessboard - print board
+ */
+void print_chessboard(char (*a)[8]);
