@@ -17,3 +17,8 @@ char *_strchar(char *s, char c);
  * _strspn - get length
  */
 unsigned int _strspn(char *s, char *accept);
+
+/**
+ * _strpbrk - occurence of byte
+ */
+char *_strpbrk(char *s, char *accept);
