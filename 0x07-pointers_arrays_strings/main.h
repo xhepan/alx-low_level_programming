@@ -32,3 +32,4 @@ char *_strstr(char *haystack, char *needle);
  * print_chessboard - print board
  */
 void print_chessboard(char (*a)[8]);
+
