@@ -22,3 +22,8 @@ unsigned int _strspn(char *s, char *accept);
  * _strpbrk - occurence of byte
  */
 char *_strpbrk(char *s, char *accept);
+
+/**
+ * _strstr - needle in stack
+ */
+char *_strstr(char *haystack, char *needle);
