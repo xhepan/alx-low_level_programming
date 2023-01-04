@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	int a, b, c, i;
+	long int a, b, c, i;
 	
 	a = 1;
 	b = 2;
