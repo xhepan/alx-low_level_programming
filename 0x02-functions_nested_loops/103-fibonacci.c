@@ -20,6 +20,7 @@ int main(void)
 		if (c % 2 == 0)
 		{
 			sum = sum + c;
+			printf("%ld\n", sum);
 		}
 		a = b;
 		b = c;
