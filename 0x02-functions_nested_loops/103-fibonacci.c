@@ -14,7 +14,7 @@ int main(void)
 	a = 1;
 	b = 2;
 	sum = b;
-	for (i = 2; i < 4000000; i++)
+	for (i = 2; i < 4000000 - 1; i++)
 	{
 		c = a + b;
 		if (c % 2 == 0)
