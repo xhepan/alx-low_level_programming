@@ -16,7 +16,7 @@ int main(void)
 	for (i = 2; i < 50; i++)
 	{
 		c = a + b;
-		if (i < 50)
+		if (i < 50 - 1)
 		{
 			printf("%ld, ", c);
 		}
