@@ -28,6 +28,10 @@ void print_times_table(int n)
 						printf(",");
 						printf("   ");
 					}
+					else if (p > 10 && p < 100)
+					{
+						printf(",  ");
+					}
 					else
 					{
 						printf(", ");
