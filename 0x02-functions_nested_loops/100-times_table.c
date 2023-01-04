@@ -26,7 +26,7 @@ void print_times_table(int n)
 					if (p < 10)
 					{
 						printf(",");
-						printf("  ");
+						printf("   ");
 					}
 					else
 					{
