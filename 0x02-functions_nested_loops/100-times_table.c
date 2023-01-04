@@ -10,7 +10,7 @@ void print_times_table(int n)
 {
 	int i, j, p;
 
-	if (n > 0 && n < 15)
+	if (n >= 0 && n <= 15)
 	{
 		for (i = 0; i <= n; i++)
 		{
@@ -28,7 +28,7 @@ void print_times_table(int n)
 						printf(",");
 						printf("   ");
 					}
-					else if (p > 10 && p < 100)
+					else if (p >= 10 && p < 100)
 					{
 						printf(",  ");
 					}
