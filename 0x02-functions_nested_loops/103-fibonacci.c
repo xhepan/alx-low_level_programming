@@ -20,10 +20,13 @@ int main(void)
 		if (c % 2 == 0)
 		{
 			sum = sum + c;
-			printf("%ld\n", sum);
 		}
 		a = b;
 		b = c;
+		if (sum > 4000000)
+		{
+			break;
+		}
 	}
 	printf("%ld\n", sum);
 	return (0);
