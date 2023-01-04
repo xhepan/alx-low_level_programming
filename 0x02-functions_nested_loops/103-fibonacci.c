@@ -9,7 +9,7 @@
 int main(void)
 {
 	long int a, b, c, i;
-	long long int sum;
+	long int sum;
 
 	a = 1;
 	b = 2;
@@ -24,7 +24,7 @@ int main(void)
 		a = b;
 		b = c;
 	}
-	printf("%lld\n", sum);
+	printf("%ld\n", sum);
 	return (0);
 }
 
