@@ -23,7 +23,7 @@ void print_times_table(int n)
 				}
 				else
 				{
-					if (p < n + 1)
+					if (p < 10)
 					{
 						printf(",");
 						printf("  ");
